@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licitaciones</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="icon" href="../img/icono.png" type="image/png">
+</head>
+<body>
+<!-- header -->
+
+    <header>
+        <div>
+        <h1>LICITACIONES</h1>
+        <p>REGISTRO Y OFERTAS</p>  
+        </div>
+            </header>
+   
+<!-- nabvar-->
+
+    <nav class="nabvar">
+        <a href="#">INICIO</a>
+        <a href="../../index.html">PAG. PRINCIPAL</a>
+        <a href="../Views/Obrasenejecucion.html">OBRAS EN EJECUCION</a>
+        <a href="../Views/obrasaejecutarce.html">OBRAS A EJECUTARCE</a>
+    </nav> 
+    
+<!-- PRINCIPAL LICITACION-->    
+<div class="Principal">
+        <aside>
+            <form>
+                <fieldset class="form1">
+                <legend>Registro licitadores</legend>
+                Nombre:<br>
+                    <input type="text" name="firstname" required><br>
+                Apellido:<br>
+                    <input type="text" name="lastname" required><br>
+                Correo electronico:<br>
+                    <input type="email" name="email" required><br>
+                CUIT:<br>
+                    <input type="number" name="CUIT" required><br>
+                Password:<br>
+                    <input type="password" name="pass" required><br>
+                <input type="submit" Name="confirmar">
+                <input type="reset" name="Cancelar">
+                 </fieldset>    
+                    </form>
+                        </aside>
+
+        <main>
+            <div class="Formu2">
+                <Form>            
+                    <Fieldset>
+                    <A id="ObraN°1"></A>
+                    <legend>Licitacion Publica N° 20/2024</legend>
+                    <h4>Obra de Mejoras de edificio, fecha de apertura: 29/08/2024, Hora apertura: 10:00, Hora de cierrre: 11:00 </h4>              
+                        <fieldset>
+                            <label>
+                                <input type="radio" name="brand" 
+                                       value="licitar"> Licitar
+                            </label>
+                        
+                            <label class="NoLic">
+                                <input type="radio" name="brand" 
+                                       value="No licitar"> No licitar
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <label for="Oferta">Monto a licitar:</label>
+                                <input type="number" name="Monto Licitacion" id="Oferta" required>
+                            <label for="Fecha"> fecha de licitacon:</label>
+                            <input type="datetime-local" name="Hora" id="Hora"required>
+                                <br>
+                                    <br>
+                            <label for="text">DOCUMENTACION REQUERIDA PDF</label>
+                            <input type="file" id="uploads" name="uploads" accept=".PDF" required>
+                        </fieldset><br>
+                            <input type="submit" value=" Ofertar ">
+                            <input type="reset" value="Cancelar"><br>
+                            <br>
+                                <br>
+                    </Fieldset>
+                </form>
+                        <br><br>
+                <Form>
+                    <Fieldset>
+                    <a id="ObraNº2"></a>
+                    <legend>Licitacion Publica N° 22/2024</legend>
+                    <h4>Construccion de Jardin Nº 1, fecha de apertura: 30/08/2024, Hora apertura: 10:00, Hora de cierrre: 11:00 </h4>
+                        <Fieldset>
+                            <label>
+                                <input type="radio" name="brand" 
+                                       value="licitar"> Licitar
+                            </label>
+                        
+                            <label>
+                                <input type="radio" name="brand" 
+                                       value="No licitar"> No licitar
+                            </label>
+                    </Fieldset>
+                    <Fieldset>   
+                            <label for="Oferta">Monto a licitar:</label>
+                            <input type="number" name="Monto Licitacion" id="Oferta" required>
+                            <label> fecha de licitacon:</label>
+                            <input type="datetime-local" name="Hora" id="Hora" min="2024/06/22T10:00" max="2024/06/22T11:00" required>
+                            <br>
+                                <br>
+                            <label for="text">DOCUMENTACION REQUERIDA PDF</label>
+                            <input type="file" id="uploads" name="uploads" accept=".PDF" required>
+                        </Fieldset><br>
+                        <input type="submit" value=" Ofertar ">
+                        <input type="reset" value="Cancelar"><br>
+                        <br><br>
+                    </Fieldset>
+                </Form>
+                        <br><br>
+                <form>
+                    <Fieldset>
+                        <A id="ObraN°3"></A>
+                        <legend>Licitacion Publica N° 30/2024</legend>
+                        <h4>Obra de Pavimento Planta Urbana, fecha de apertura: 30/08/2024, Hora apertura: 11:00, Hora de cierrre: 12:00 </h4>   
+                        <Fieldset> 
+                            <label>
+                                <input type="radio" name="brand" 
+                                       value="licitar"> Licitar
+                            </label>
+                        
+                            <label>
+                                <input type="radio" name="brand" 
+                                       value="No licitar"> No licitar
+                            </label>
+                    </Fieldset>
+                    <Fieldset>     
+                            <label for="Oferta">Monto a licitar:</label>
+                            <input type="number" name="Monto Licitacion" id="Oferta" required>
+                            <label> fecha de licitacon:</label>
+                            <input type="datetime-local" name="Hora" id="Hora" min="2024/06/22T10:00" max="2024/06/22T11:00" required>
+                            <br>
+                                <br>
+                            <label for="text">DOCUMENTACION REQUERIDA PDF</label>
+                            <input type="file" id="uploads" name="uploads" accept=".PDF" required>
+                    </Fieldset><br>    
+                        <input type="submit" value=" Ofertar ">
+                        <input type="reset" value="Cancelar"><br>
+                        <br><br>
+                    </Fieldset>
+                </form>
+                        <br><br>
+                <form>    
+                    <Fieldset>
+                        <A id="ObraN°4"></A>
+                        <legend>Liciatcion Publica N° 32/2024</legend>
+                        <h4>Obra de Cloacas Barrio Bicentenario, fecha de apertura: 01/09/2024, Hora apertura: 09:00, Hora de cierrre: 10:00 </h4> 
+                    <Fieldset> <br>   
+                                <label>
+                                    <input type="radio" name="brand" 
+                                           value="licitar"> Licitar
+                                </label>
+                            
+                                <label>
+                                    <input type="radio" name="brand" 
+                                           value="No licitar"> No licitar
+                                </label>
+                    </Fieldset>
+                    <Fieldset>    
+                            <label for="Oferta">Monto a licitar:</label>
+                            <input type="number" name="Monto Licitacion" id="Oferta" required>
+                            <label> fecha de licitacon:</label>
+                            <input type="datetime-local" name="Hora" id="Hora" min="2024/06/22T10:00" max="2024/06/22T11:00" required><br>
+                            <br>
+                            <label for="text">DOCUMENTACION REQUERIDA PDF</label>
+                            <input type="file" id="uploads" name="uploads" accept=".PDF" required>
+                    </Fieldset><BR>  
+                        <input type="submit" value=" Ofertar ">
+                        <input type="reset" Value="Cancelar"><br>
+                            <br><br>
+                    </Fieldset>
+                </Form>      
+            </div>  
+            </main>
+</div>
+
+                    
+<!-- footer-->
+<footer>
+    <h4>Nicolas Yarza, Potrero digital 2024</h4>
+        </footer>
+</body>
+</html>
